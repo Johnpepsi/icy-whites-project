@@ -26,8 +26,8 @@ const PHOTOS = [
   },
   { src: "/images/before&after/result2.JPG", tag: "Shade-Matched Result", span: "short" },
   {
-    before: "/images/before&after/result1.JPG",
-    after: "/images/before&after/result1.JPG",
+    before: "/images/before&after/result1.jpg",
+    after: "/images/before&after/result1.jpg",
     tag: "Deep Stain Lift",
     span: "short",
   },
