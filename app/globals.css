@@ -545,6 +545,11 @@ footer{padding:64px 0 40px; background:var(--white); border-top:1px solid var(--
   nav.links{display:none;}
   .menu-btn{display:block;}
   .about-grid{grid-template-columns:1fr;}
+  /* The founder photo used to stretch edge-to-edge once the About
+     layout drops to a single column, making it dominate the whole
+     screen. Cap it to a sensible portrait-photo size and center it. */
+  .about-photo{width:280px; max-width:100%;}
+  .framed-photo{margin-left:auto; margin-right:auto;}
   .quote-grid{grid-template-columns:1fr;}
   .book-layout{grid-template-columns:1fr; gap:40px;}
   .book-panel{padding:56px 28px;}
