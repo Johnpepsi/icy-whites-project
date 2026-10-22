@@ -2,7 +2,6 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Gallery from "@/components/Gallery";
-import Watch from "@/components/Watch";
 import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
 import Booking from "@/components/Booking";
@@ -17,7 +16,6 @@ export default function Home() {
         <Hero />
         <About />
         <Gallery />
-        <Watch />
         <Pricing />
         <Testimonials />
         <Booking />

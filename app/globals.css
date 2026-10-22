@@ -437,42 +437,6 @@ section{padding:104px 0;}
   .lightbox-btn{width:40px; height:40px;}
 }
 
-/* video lightbox variant — a centered square stage sized for the clip,
-   rather than the full-viewport stage the photo lightbox uses */
-.lightbox-video-stage{
-  position:relative;
-  width:min(90vw, 560px); aspect-ratio:1/1;
-  border-radius:10px; overflow:hidden;
-  box-shadow:0 30px 80px rgba(0,0,0,0.45);
-}
-.lightbox-video{width:100%; height:100%; display:block; background:#000;}
-
-/* ---------- watch (video) ---------- */
-.watch-card{
-  display:block; margin:0 auto; width:100%; max-width:420px;
-  aspect-ratio:1/1; position:relative; border-radius:14px; overflow:hidden;
-  padding:0; border:1px solid var(--line); background:var(--frost);
-  cursor:pointer;
-  box-shadow:0 20px 50px rgba(20,36,48,0.14);
-  transition:transform .25s ease, box-shadow .25s ease;
-}
-.watch-card:hover{transform:translateY(-3px); box-shadow:0 26px 60px rgba(20,36,48,0.2);}
-.watch-poster{object-fit:cover;}
-.watch-play{
-  position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);
-  width:76px; height:76px; border-radius:50%;
-  background:rgba(251,253,253,0.92); color:var(--accent-deep);
-  display:flex; align-items:center; justify-content:center;
-  box-shadow:0 10px 26px rgba(20,36,48,0.25);
-  transition:transform .25s ease, background .25s ease;
-}
-.watch-play svg{width:28px; height:28px; margin-left:3px;}
-.watch-card:hover .watch-play{transform:translate(-50%,-50%) scale(1.08); background:#fff;}
-@media (max-width:560px){
-  .watch-play{width:64px; height:64px;}
-  .watch-play svg{width:24px; height:24px;}
-}
-
 /* ---------- pricing ---------- */
 .price-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:1px; background:var(--line); border:1px solid var(--line); border-radius:10px; overflow:hidden;}
 .price-card{background:var(--white); padding:38px 30px; display:flex; flex-direction:column; position:relative; transition:box-shadow .25s ease, transform .25s ease; z-index:1;}
