@@ -9,7 +9,7 @@ export default function Hero() {
         <div className="hero-marks">
           <span>❄</span><span>✧</span><span>❄</span>
         </div>
-        <div className="kicker">Teeth Whitening Studio</div>
+        <div className="kicker">Mobile Teeth Whitening</div>
         <h1>Icy <span className="accent">Whites</span></h1>
         <p className="lede center">
           Limited sessions available this month — a calm, one-on-one whitening

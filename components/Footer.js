@@ -3,7 +3,7 @@ export default function Footer() {
     <footer>
       <div className="wrap">
         <div className="foot-mark">Icy Whites</div>
-        <div className="foot-tagline">A brighter smile, one careful session at a time.</div>
+        <div className="foot-tagline">Brighter smiles, lasting confidence</div>
         <div className="foot-links">
           <a href="#about">About</a>
           <a href="#pricing">Pricing</a>

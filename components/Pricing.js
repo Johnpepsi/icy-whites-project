@@ -17,7 +17,7 @@ export default function Pricing() {
             <div className={`price-card${s.featured ? " featured" : ""}`} key={s.id}>
               <h3>{s.name}</h3>
               <div className="price">${s.price}</div>
-              <div className="addon">+ Sensitivity gel, $8</div>
+              <div className="addon">+ Sensitivity gel - complimentary</div>
               <div className="desc">{s.blurb}</div>
               <ul>
                 {s.features.map((f) => (
